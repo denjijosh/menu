@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Breakfast Menu Filter</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+        }
+        
+        h1 {
+            font-size: 26px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+        
+        .section {
+            margin-bottom: 40px;
+        }
+        
+        .menu-header {
+            background-color: #008080;
+            color: white;
+            padding: 10px;
+            font-weight: bold;
+            font-size: 18px;
+            border-radius: 5px 5px 0 0;
+        }
+        
+        .menu-description {
+            background-color: #f0f0f0;
+            padding: 10px;
+            font-style: italic;
+            font-size: 14px;
+            border-radius: 0 0 5px 5px;
+        }
+        
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        
+        li {
+            margin-bottom: 20px;
+        }
+        
+        .item-container {
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        
+        .cal {
+            font-style: italic;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Filtered Breakfast Menu</h1>
+
+    <div class="section">
+        <div class="menu-header">Foods with Price &gt; $5.00</div>
+        <ul>
+            <li class="item-container">
+                <div class="menu-header">Belgian Waffles - $5.95</div>
+                <div class="menu-description">Two of our famous Belgian Waffles with plenty of real maple syrup <span class="cal">(650 calories per serving)</span></div>
+            </li>
+            <li class="item-container">
+                <div class="menu-header">Strawberry Belgian Waffles - $7.95</div>
+                <div class="menu-description">Light Belgian waffles covered with strawberries and whipped cream <span class="cal">(900 calories per serving)</span></div>
+            </li>
+            <li class="item-container">
+                <div class="menu-header">Berry-Berry Belgian Waffles - $8.95</div>
+                <div class="menu-description">Light Belgian waffles covered with an assortment of fresh berries and whipped cream <span class="cal">(900 calories per serving)</span></div>
+            </li>
+            <li class="item-container">
+                <div class="menu-header">Homestyle Breakfast - $6.95</div>
+                <div class="menu-description">Two eggs, bacon or sausage, toast, and our ever-popular hash browns <span class="cal">(950 calories per serving)</span></div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <div class="menu-header">Foods with Calories ≤ 700</div>
+        <ul>
+            <li class="item-container">
+                <div class="menu-header">Belgian Waffles - $5.95</div>
+                <div class="menu-description">Two of our famous Belgian Waffles with plenty of real maple syrup <span class="cal">(650 calories per serving)</span></div>
+            </li>
+            <li class="item-container">
+                <div class="menu-header">French Toast - $4.50</div>
+                <div class="menu-description">Thick slices made from our homemade sourdough bread <span class="cal">(600 calories per serving)</span></div>
+            </li>
+        </ul>
+    </div>
+
+</body>
+
+</html>
